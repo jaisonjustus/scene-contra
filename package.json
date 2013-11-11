@@ -1,0 +1,11 @@
+{
+  "name" : "seen-contra",
+  "version" : "0.0.0",
+  "author" : "jaison.justus.lp@gmail.com",
+
+  "devDependencies" : {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.2.0",
+    "matchdep": "~0.1.1"
+  }
+}

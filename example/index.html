@@ -1,0 +1,26 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <script type="text/javascript" src="http://localhost:3501/src/contra.js"></script>
+    <script type="text/javascript" src="http://localhost:3501/src/service.js"></script>
+    <script type="text/javascript" src="http://localhost:3501/src/app.js"></script>
+    <script type="text/javascript">
+    Contra.App('EHQ', {
+      instagram : {
+        key : 'xCgk36876jjHJYT90sd56GHtYYuns',
+        url : 'https://api.instagram.com/'
+      },
+
+      leafLet : {
+        key : 'xCgk36876jjHJYT90sd56GHtYYuns',
+        url : 'https://api.leaflet.com/',
+        secretcode : '4356'
+      }
+    });
+
+    Contra.App('EHQ')
+      .Service('instagram.data',[], {});
+    </script>
+  </body>
+</html>
