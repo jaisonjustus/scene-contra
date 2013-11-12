@@ -20,7 +20,16 @@
     });
 
     Contra.App('EHQ')
-      .Service('instagram.data',[], {});
+      .Service('instagram',[], {
+        initialize : function()  {
+          console.log('initalized');
+        }
+      });
+
+    var instagram = Contra.App('EHQ').get('Service:instagram');
+console.log(instagram);
+    var test = new instagram();
+
     </script>
   </body>
 </html>
