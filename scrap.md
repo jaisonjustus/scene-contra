@@ -21,7 +21,7 @@ Contra.App('EHQ', {
 ```
 Contra.App('EHQ')
   .View('instagram.admin',
-    ['instagram.login', 'instagram', 'twitter.login'],
+    ['View:instagram.login', 'instagram', 'twitter.login'],
     {
 
       initialize : function() {},
